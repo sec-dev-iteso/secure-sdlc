@@ -26,8 +26,8 @@ And can be supported with Data Flow Diagrams (DFD) or Attack Trees.
 Risks assessment, like threat modelling, is more an art than a science. It aims to identify not just what could go wrong and the impact of such problem, but also the likelihood of it to happen. Risk calculation should be as objective as possible, but subtle to the enviroment where they could arise.
 
 Example of risk assessment techniques are:
-* DREAD. Damage, Reproducibility, Exploitability, Affected Users, Discoverability.
-* CVSS. Common Vulnerability Scoring System.
+* [DREAD][12].Damage, Reproducibility, Exploitability, Affected Users, Discoverability.
+* [CVSS][13]. Common Vulnerability Scoring System.
 * OWASP Risk Rating Methodology.
 * NIST SP 800-30. Guide for Conducting Risk Assessments.
 
@@ -157,6 +157,9 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 [Threat Modelling Tool Threats. Microsoft][1]
 
 [Static Application Security Testing. Snyk][2]
-
+[Dread. Microsoft][12]
+[CVSS.  CVSS Version 3.1 Release][13]
+[12] https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648644(v=pandp.10)?redirectedfrom=MSDN#dread
+[13] https://www.first.org/cvss/specification-document
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
