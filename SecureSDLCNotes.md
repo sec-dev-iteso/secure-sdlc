@@ -137,7 +137,7 @@ Once the system is up and running, the development process doesn't stop. During 
 A system is as secure as it's parts, and considering most software runs above existing systems, it's important to keep them up to date. Patch management is the process of keeping the system up to date with the latest security fixes. A policy to ensure no software has passed it's end of life EOL or that no software is running with known vulnerabilities is key to reduce the attack surface of the system.
 
 ## Incident Response
-It's not what if but when will happen a security incident. SANS propose a 6 step process to handle security incidents, which enables organizations to respond in a timely manner and reduce the impact of the incident. The steps are:
+It's not what if but when will happen a security incident. [SANS][22] propose a [6 step process][23] to handle security incidents, which enables organizations to respond in a timely manner and reduce the impact of the incident. The steps are:
 1. Preparation. Define the roles and responsibilities of the incident response team, and the process to follow in case of an incident.
 2. Identification. Detect the incident and determine if it's a false positive or a real incident.
 3. Containment. Isolate the incident to prevent further damage.
@@ -158,5 +158,11 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [Static Application Security Testing. Snyk][2]
 
+[About SANS Institute. SANS][22]
+
+[Incident Response SANS: The 6 Steps in Depth. Cynet][23]
+
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
+[22]:https://www.sans.org/about/?msc=main-nav (About SANS Institute, SANS)
+[23]:https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/ (Incident Response SANS: The 6 Steps in Depth, Cynet)
