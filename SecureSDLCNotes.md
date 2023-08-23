@@ -28,8 +28,8 @@ Risks assessment, like threat modelling, is more an art than a science. It aims 
 Example of risk assessment techniques are:
 * DREAD. Damage, Reproducibility, Exploitability, Affected Users, Discoverability.
 * CVSS. Common Vulnerability Scoring System.
-* OWASP Risk Rating Methodology.
-* NIST SP 800-30. Guide for Conducting Risk Assessments.
+* [OWASP Risk Rating Methodology][14].
+* [NIST SP 800-30. Guide for Conducting Risk Assessments][15].
 
 Multiple times, risk assessment is a requirement to fulfill compliance requirements. Compliance can come from regulatory bodies, industry standards, or internal policies. For example, if credit card information needs to be stored, the system need to comply with PCI DSS, a standard from the Payment Card Industry Security Standards Council.
 
@@ -161,7 +161,6 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 [Key Highlights From the New NIST SSDF. NIST][19]
 
 [CIS Critical Security Control 16: Application Software Security][20]
-
 
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
