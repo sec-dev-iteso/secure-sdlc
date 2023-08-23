@@ -39,6 +39,44 @@ During this phase, the what and the how of the system is defined at a high level
 ## Security Architecture and Design ​
 Building a system with security from the start is key to reduce the cost of fixing security issues later in the SDLC. The objective is to cover protective measures before the first line of code is written, or the first server is spin up. Security controls aren't just technical, can also be operational and administrative like definining security roles and responsibilities in a human centric process.
 
+Security architects have guidelines (frameworks) to work with. A security architecture framework is a set of consistent guidelines and principles for implementing different levels of business’ security architecture. Companies may opt to devise their frameworks by combining international standard frameworks, such as:
+
+[TOGAF Framework][31]: TOGAF, or The Open Group Architecture Framework, helps determine which problems need to be solved within the security infrastructure in a business. Its primary focus is on the organization’s goal and scope, as well as the preliminary phases of security architecture. TOGAF does not, however, give specific guidance on ways to address security issues. 
+
+[SABSA Framework][31]: SABSA, or the Sherwood Applied Business Security Architecture, is a policy-driven framework. It helps define the critical questions that security architecture can only answer: what, why, when, and who. The goal of SABSA is to ensure that after the design of security services, they are then delivered and supported as an integral part of the enterprise’s IT management. One downside, however, is that SABSA doesn’t get into specifics regarding technical implementation. 
+
+[OSA Framework][31]: On the other hand, the Open Security Architecture (OSA) is a framework related to technical and functional security controls. OSA offers a comprehensive overview of crucial security components, principles, issues, and concepts that underlie architectural decisions involved in designing effective security architectures. However, OSA can only be used if the security architecture has already been designed.
+
+[TOGAF examples][30]:
+* Definition of business principles, goals and drivers.
+* Security architecture roadmaps - or in other words, a list of individual work packages that will define the target security architecture and show progression from the as-is state to the desired state within agreed timelines.
+* Security architecture building blocks. A building block is a package of functionality designed to meet the business needs across an organization.
+* Specification of security architecture requirements. This provides a quantitative view of the solution, stating measurable criteria that must be met during implementation.
+
+[SABSA examples][30]:
+* The business attribute model - the heart of SABSA. The business attribute model is an abstraction of real-life business requirements, detailing definitions and guidelines for a variety of important business attributes.
+* A defined security strategy, mapped to control objectives and business attribute profile.
+* Security policy architecture, which covers security and domain policies that an organization should follow, complied to the latest security standards and regulatory bodies.
+* Defined security services. These should be based on security policies, business strategies and control objectives.
+
+[OSA examples][30]:
+* Functionality and technical security controls. These provide a definition of technical security controls such as access controls, system hardening, security scans, etc.
+* Software and data integrity protection, a taxonomy of software integrity protection techniques
+With a service such as ours here at dig8ital, we would bring deliverables from each of the frameworks together based on your needs to ensure you receive a fit-for-purpose outcome throughout all stages of security architecture.
+
+[Understand Key Security Architecture Principles][32]
+
+Two key publications that have shaped our thinking around security architecture are 1975’s “Protection of information in computer systems” and ISO/IEC Technical Standard 19249:2017. These publications establish important design principles including:
+* Economy of mechanism: Security controls should be kept as simple and small as possible to limit complexity and resulting design and implementation errors.
+* Fail-safe defaults: Access decisions should be based on permission rather than exclusion. The default situation should result in a lack of access, and access control rules should be written to add access rather than block it.
+* Complete mediation: All objects within a system should be subject to access control rules in all phases of system operation, including initialization, recovery, shutdown and maintenance.
+* Open design: The architecture must not depend on the design being secret in order to maintain security.
+* Least privilege/separation of privilege: Permissions should be appropriately organized to allow only what’s necessary for a given situation, and to ensure that potentially dangerous sets of permissions can be isolated.
+These design “guardrails” should be present in every technical control. Once these principles are well understood, you can approach the design in several steps.
+
+[KPMG Security Architecture Framework][33] is composed of five key areas including Governance & Compliance, Personnel & Identity, Information & Data, Applications & Operations, and Infrastructure. It could be further customized and enhanced to meet organizational needs, internal requirements and external regulations.
+
+
 ## Secure Design Principles
 Considering security can be too hard or to complex if are not well understood the principles behind what makes a system secure, it's easier to follow existing patterns and best practices that have been proven to work.
 
@@ -158,5 +196,18 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [Static Application Security Testing. Snyk][2]
 
+[What is Security Architecture, and What Do You Need to Know?][30]
+
+[Security Architecture: What it is, Benefits and Frameworks][31]
+
+[How to Design a Security Architecture][32]
+
+[Security Architecture Design & Implementation][33]
+
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
+[30]:https://www.dig8ital.com/post/what-is-security-architecture-and-what-do-you-need-to-know
+[31]:https://www.threatintelligence.com/blog/security-architecture
+[32]:https://edtechmagazine.com/higher/article/2022/03/how-design-security-architecture-eperfcon
+[33]:https://assets.kpmg.com/content/dam/kpmg/cn/pdf/en/2020/10/sales-brochure-security-arch.pdf
+
