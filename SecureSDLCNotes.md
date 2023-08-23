@@ -46,7 +46,7 @@ Some of the most common [principles][5] are:
 * Least Privilege. Procure only the minimum required access to perform a task.
 * Defense in Depth. Multiple layers of security controls deter attackers and reduce blast radius.
 * Fail Securely. If a component fails, it should fail in a secure state.
-* Separation of Duties. No single principal (user or external system) should be able to perform all task for critical operations.
+* [Separation of Duties.][4] No single principal (user or external system) should be able to perform all task for critical operations.
 * Complete Mediation. Access to a resource should be validated against it's permissions.
 * Open Design. The design should not be secret, it should be open to the public (Analog to Kerckhoffs's principle).
 * Psychological Acceptability. A security control should be easy, or otherwise users will find a way to bypass it.
@@ -158,15 +158,13 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [Static Application Security Testing. Snyk][2]
 
-[Security design principles. Microsoft][3]
-
-[Security design principles. Cydrill Software Security ][4]
+[Separation of duties. Wikipedia][4]
 
 [Secure Product Design. OWASP][5]
 
 
-[3]:https://learn.microsoft.com/en-us/azure/well-architected/security/security-principles (Security design principles. Microsoft)
+
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
-[4]: https://cydrill.com/cyber-security/secure-design-principles/ (Security design principles. Cydrill Software Security)
+[4]: https://en.wikipedia.org/wiki/Separation_of_duties (Wikipedia)
 [5]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html (Secure Product Design. OWASP)
