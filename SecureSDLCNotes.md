@@ -158,5 +158,14 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [Static Application Security Testing. Snyk][2]
 
+[OWASP Community Pages][16]
+
+[Coding Standards depending of programm language][17]
+
+[SDL practices][18]
+
+[18]: https://www.microsoft.com/en-us/securityengineering/sdl/practices (SDL practices)
+[17]: https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards (Coding Standards depending of programm language) 
+[16]: https://owasp.org/www-community/ (OWASP Community Pages)
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
