@@ -26,10 +26,12 @@ And can be supported with Data Flow Diagrams (DFD) or Attack Trees.
 Risks assessment, like threat modelling, is more an art than a science. It aims to identify not just what could go wrong and the impact of such problem, but also the likelihood of it to happen. Risk calculation should be as objective as possible, but subtle to the enviroment where they could arise.
 
 Example of risk assessment techniques are:
+
 * [DREAD][12]. Damage, Reproducibility, Exploitability, Affected Users, Discoverability.
 * [CVSS][13]. Common Vulnerability Scoring System.
-* OWASP Risk Rating Methodology.
-* NIST SP 800-30. Guide for Conducting Risk Assessments.
+* [OWASP Risk Rating Methodology][14].
+* [NIST SP 800-30. Guide for Conducting Risk Assessments][15].
+
 
 Multiple times, risk assessment is a requirement to fulfill compliance requirements. Compliance can come from regulatory bodies, industry standards, or internal policies. For example, if credit card information needs to be stored, the system need to comply with PCI DSS, a standard from the Payment Card Industry Security Standards Council.
 
@@ -160,7 +162,15 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 [Dread. Microsoft][12]
 [CVSS.  CVSS Version 3.1 Release][13]
 
+
+[OWASP Risk Rating Methodology][14]
+
+[NIST SP 800-30][15]
+
 [12]:https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648644(v=pandp.10)?redirectedfrom=MSDN#dread
 [13]:https://www.first.org/cvss/specification-document
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
-[1]:https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
+[1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
+[14]:https://owasp.org/www-community/OWASP_Risk_Rating_Methodology (OWASP Risk Rating Methodology, OWASP)
+[15]:https://csrc.nist.gov/pubs/sp/800/30/r1/final (NIST SP 800-30 Rev. 1, NIST)
+
