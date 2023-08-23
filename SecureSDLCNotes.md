@@ -160,6 +160,13 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [Security design principles. Microsoft][3]
 
+[Security design principles. Cydrill Software Security ][4]
+
+[Secure Product Design. OWASP][5]
+
+
 [3]:https://learn.microsoft.com/en-us/azure/well-architected/security/security-principles (Security design principles. Microsoft)
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
+[4]: https://cydrill.com/cyber-security/secure-design-principles/ (Security design principles. Cydrill Software Security)
+[5]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html (Secure Product Design. OWASP)
