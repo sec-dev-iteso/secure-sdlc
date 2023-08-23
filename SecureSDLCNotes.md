@@ -158,5 +158,14 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [Static Application Security Testing. Snyk][2]
 
+[Penetration Testing][8]
+
+[Core concepts of penetration testing][9]
+
+[What is penetration testing][10]
+
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
+[8]: https://www.synopsys.com/glossary/what-is-penetration-testing.html 'What is penetration testing?'
+[9]: https://www.evolution-sec.com/en/products/penetration-testing-concept#:~:text=The%20process%20involves%20an%20active,in%20process%20or%20technical%20countermeasures. 'Core concepts of penetration testing'
+[10]: https://www.cloudflare.com/learning/security/glossary/what-is-penetration-testing/ 'What is penetration testing'
