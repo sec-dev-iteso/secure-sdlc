@@ -28,8 +28,8 @@ Risks assessment, like threat modelling, is more an art than a science. It aims 
 Example of risk assessment techniques are:
 * DREAD. Damage, Reproducibility, Exploitability, Affected Users, Discoverability.
 * CVSS. Common Vulnerability Scoring System.
-* OWASP Risk Rating Methodology.
-* NIST SP 800-30. Guide for Conducting Risk Assessments.
+* [OWASP Risk Rating Methodology][14].
+* [NIST SP 800-30. Guide for Conducting Risk Assessments][15].
 
 Multiple times, risk assessment is a requirement to fulfill compliance requirements. Compliance can come from regulatory bodies, industry standards, or internal policies. For example, if credit card information needs to be stored, the system need to comply with PCI DSS, a standard from the Payment Card Industry Security Standards Council.
 
@@ -204,10 +204,15 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [Security Architecture Design & Implementation][33]
 
+[OWASP Risk Rating Methodology][14]
+
+[NIST SP 800-30][15]
+
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
 [30]:https://www.dig8ital.com/post/what-is-security-architecture-and-what-do-you-need-to-know
 [31]:https://www.threatintelligence.com/blog/security-architecture
 [32]:https://edtechmagazine.com/higher/article/2022/03/how-design-security-architecture-eperfcon
 [33]:https://assets.kpmg.com/content/dam/kpmg/cn/pdf/en/2020/10/sales-brochure-security-arch.pdf
-
+[14]:https://owasp.org/www-community/OWASP_Risk_Rating_Methodology (OWASP Risk Rating Methodology, OWASP)
+[15]:https://csrc.nist.gov/pubs/sp/800/30/r1/final (NIST SP 800-30 Rev. 1, NIST)
