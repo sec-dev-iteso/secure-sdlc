@@ -158,5 +158,8 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [Static Application Security Testing. Snyk][2]
 
+[Analysis & Desing][500]
+
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
+[500]: https://www.synopsys.com/glossary/what-is-software-architecture.html
