@@ -169,8 +169,8 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [6665]:https://www.spiceworks.com/tech/devops/articles/what-is-patch-management/ (What Is Patch Management? Meaning, Process, and Best Practices)
 [6664]:https://www.ibm.com/topics/patch-management (What is patch management | IBM)
-[6663]:https://www.redhat.com/en/topics/management/what-patch-management-and-automation (What is patch management (and automation)?)
-[6662]:https://www.intel.com/content/www/us/en/business/enterprise-computers/resources/patch-management.html/ (What Is Patch Management?)
+[6663]:https://www.redhat.com/en/topics/management/what-patch-management-and-automation/ 
+[6662]:https://www.intel.com/content/www/us/en/business/enterprise-computers/resources/patch-management.html 
 
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]:https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
