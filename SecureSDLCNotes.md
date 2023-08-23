@@ -42,7 +42,7 @@ Building a system with security from the start is key to reduce the cost of fixi
 ## Secure Design Principles
 Considering security can be too hard or to complex if are not well understood the principles behind what makes a system secure, it's easier to follow existing patterns and best practices that have been proven to work.
 
-Some of the most common principles are:
+Some of the most common [principles][5] are:
 * Least Privilege. Procure only the minimum required access to perform a task.
 * Defense in Depth. Multiple layers of security controls deter attackers and reduce blast radius.
 * Fail Securely. If a component fails, it should fail in a secure state.
