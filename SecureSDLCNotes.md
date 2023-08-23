@@ -148,10 +148,10 @@ It's not what if but when will happen a security incident. SANS propose a 6 step
 ## Continuous Monitoring
 Monitoring is key to detect incidents and respond to them in a timely manner. It's also a way to measure the effectiveness of the security controls in place. Monitoring can be done at different levels, from the network to the application, and can be done manually or automatically. A few of the minimum requisites to keep monitoring against security problems are:
 * Log collection and analysis (usually with a SIEM)
-* Network traffic analysis
+* [Network traffic analysis][102]
 * Application performance monitoring (APM)
-* Vulnerability management
-* Threat intelligence
+* [Vulnerability management][101]
+* [Threat intelligence][100]
 
 # References (in Markdown)
 [Threat Modelling Tool Threats. Microsoft][1]
@@ -162,7 +162,16 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [NIST SP 800-30][15]
 
+[¿Qué es la inteligencia de amenazas?. IBM][100]
+
+[Gestión de vulnerabilidades. SANS][101]
+
+[What Is Network Traffic Analysis (NTA)?. ExtraHop][102]
+
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
 [14]:https://owasp.org/www-community/OWASP_Risk_Rating_Methodology (OWASP Risk Rating Methodology, OWASP)
 [15]:https://csrc.nist.gov/pubs/sp/800/30/r1/final (NIST SP 800-30 Rev. 1, NIST)
+[100]: https://www.ibm.com/topics/threat-intelligence (¿Qué es la inteligencia de amenazas?. IBM)
+[101]: https://www.sans.org/es/security-awareness-training/ouch-newsletter/2017/gestion-de-vulnerabilidades (Gestión de vulnerabilidades. SANS)
+[102]: https://www.extrahop.com/company/blog/2018/what-is-network-traffic-analysis-nta/ (What Is Network Traffic Analysis?. ExtraHop)
