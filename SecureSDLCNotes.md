@@ -34,7 +34,7 @@ Example of risk assessment techniques are:
 Multiple times, risk assessment is a requirement to fulfill compliance requirements. Compliance can come from regulatory bodies, industry standards, or internal policies. For example, if credit card information needs to be stored, the system need to comply with PCI DSS, a standard from the Payment Card Industry Security Standards Council.
 
 # Analysis & Design
-During this phase, the what and the how of the system is defined at a high level. During this phase it's also possible to identify security requirements and architecture decisions that will influence the overall security of the system and it's pieces.
+During this phase, the what and the how of the system is defined at a [high level][500]. During this phase it's also possible to identify security requirements and architecture decisions that will influence the overall security of the system and it's pieces.
 
 ## Security Architecture and Design ​
 Building a system with security from the start is key to reduce the cost of fixing security issues later in the SDLC. The objective is to cover protective measures before the first line of code is written, or the first server is spin up. Security controls aren't just technical, can also be operational and administrative like definining security roles and responsibilities in a human centric process.
