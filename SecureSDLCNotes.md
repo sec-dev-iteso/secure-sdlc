@@ -160,3 +160,6 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
+[1337]: https://csrc.nist.rip/publications/detail/nistir/8011/vol-4/final (Automation Support for Security Control Assessments: Software Vulnerability Management)
+[1338]: [A09:2021 – Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/)
+[1339]: [A10:2017-Insufficient Logging & Monitoring](https://owasp.org/www-project-top-ten/2017/A10_2017-Insufficient_Logging%2526Monitoring)
