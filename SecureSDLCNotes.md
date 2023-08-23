@@ -158,5 +158,12 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [Static Application Security Testing. Snyk][2]
 
+[Key Highlights From the New NIST SSDF. NIST][19]
+
+[CIS Critical Security Control 16: Application Software Security][20]
+
+
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
+[19]:https://blog.gitguardian.com/key-highlights-from-the-new-nist-ssdf/
+[20]:https://www.cisecurity.org/controls/application-software-security
