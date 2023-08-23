@@ -75,6 +75,22 @@ In order to better address security at the code level, it's recommended to follo
 ## Code Review
 Security code reviews are a manual or semi-manual process that leverages finding vulnerabilities in the code. It can be done by a security expert, or by a developer with security knowledge. To be more objective about the findings, it's recommended to use a checklist and/or a tool to automate the process. For example, when performing a PR review, the reviewer can use a checklist to ensure that the code is following one of the above secure coding standards.
 
+# Code Review References
+
+1. **Atlassian Article on Code Reviews:**
+   - Title: "Effective Code Review Guidelines"
+   - Source: Atlassian (Bitbucket) Blog
+   - [Effective Code Review Guidelines](https://www.atlassian.com/agile/software-development/code-reviews)
+
+2. **Google's Code Review Guide:**
+   - Title: "Google's Engineering Practices Documentation: Code Review"
+   - Source: Google Open Source
+   - [Google's Engineering Practices Documentation: Code Review](https://google.github.io/eng-practices/review/)
+
+3. **Ionos Code review:**
+   - Title: "Code review: métodos y herramientas para revisar código"
+   - Source: IONOS
+   - [Code review: métodos y herramientas para revisar código](https://www.ionos.mx/digitalguide/paginas-web/desarrollo-web/code-review/)
 ## Static Application Security Testing (SAST)
 Code is after all text, and text can be tested using syntactic and semantic analysis. SAST tools analyze the code looking for know patterns or predicting behaviour that could lead to security errors. Usually, they are part of a manual code review or a CI/CD pipeline. Other type of analysis is Software Composition Analysis (SCA), which looks for known vulnerabilities in the dependencies of the application.
 
