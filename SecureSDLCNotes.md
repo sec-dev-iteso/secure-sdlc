@@ -17,9 +17,9 @@ Think about the answer to "What could go wrong?", followed by "What if it that h
 
 Some threat modelling techniques are:
 * [STRIDE][1]. Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege.
-* PASTA. Process for Attack Simulation and Threat Analysis.
-* VAST. Visual, Agile and Simple Threat modelling.
-* OCTAVE. Operationally Critical Threat, Asset, and Vulnerability Evaluation.
+* [PASTA][10001]. Process for Attack Simulation and Threat Analysis.
+* [VAST][10002]. Visual, Agile and Simple Threat modelling.
+* [OCTAVE][10003]. Operationally Critical Threat, Asset, and Vulnerability Evaluation.
 And can be supported with Data Flow Diagrams (DFD) or Attack Trees.
 
 ## Risk Assessment
@@ -160,3 +160,6 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
+[10001]:https://versprite.com/blog/what-is-pasta-threat-modeling/
+[10002]:https://threatmodeler.com/threat-modeling-methodologies-vast/
+[10003]:https://cio-wiki.org/wiki/OCTAVE_(Operationally_Critical_Threat,_Asset_and_Vulnerability_Evaluation)
