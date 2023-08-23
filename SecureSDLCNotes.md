@@ -159,7 +159,7 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 [Static Application Security Testing. Snyk][2]
 [Dread. Microsoft][12]
 [CVSS.  CVSS Version 3.1 Release][13]
-[12] https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648644(v=pandp.10)?redirectedfrom=MSDN#dread
-[13] https://www.first.org/cvss/specification-document
-[2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
+[12]: https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648644(v=pandp.10)?redirectedfrom=MSDN#dread
+[13]: https://www.first.org/cvss/specification-document
+[2]: https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
