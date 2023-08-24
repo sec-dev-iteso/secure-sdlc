@@ -106,7 +106,7 @@ Just like SAST, DAST can produce a large amount of false positives or false nega
 Whenever a security bug is found, a unit or integration test should be created to ensure that the bug is fixed and won't be reintroduced in the future. This is known as security regression testing. It is usually performed by software developers with a strong security background or security engineers.
 
 ## Penetration Testing
-Penetration testing is a manual (or semi-automated) process where a security expert tries to find vulnerabilities in the system. It can be performed by an internal team or by an external vendor. In some cases, it's a compliance requirement to perform a penetration test before an organization can be certified by the regulatory body.
+[Penetration testing][8] is a manual (or semi-automated) process where a security expert tries to find vulnerabilities in the system. It can be performed by an internal team or by an external vendor. In some cases, it's a compliance requirement to perform a penetration test before an organization can be certified by the regulatory body.
 
 One of the big drawbacks of penetration testing is that it's a point in time test, and it's not possible to test all the possible scenarios. It's also a very expensive process, as it requires a high level of expertise and time to perform.
 
