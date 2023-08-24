@@ -46,9 +46,9 @@ Some of the most common principles are:
 * Least Privilege. Procure only the minimum required access to perform a task.
 * Defense in Depth. Multiple layers of security controls deter attackers and reduce blast radius.
 * Fail Securely. If a component fails, it should fail in a secure state.
-* [Separation of Duties.][4] No single principal (user or external system) should be able to perform all task for critical operations.
+* [Separation of Duties][4]. No single principal (user or external system) should be able to perform all task for critical operations.
 * Complete Mediation. Access to a resource should be validated against it's permissions.
-* [Open Design.][5] The design should not be secret, it should be open to the public (Analog to Kerckhoffs's principle).
+* [Open Design][5]. The design should not be secret, it should be open to the public (Analog to Kerckhoffs's principle).
 * Psychological Acceptability. A security control should be easy, or otherwise users will find a way to bypass it.
 
 Many of above principles can be completed using common patterns. For example, Role Based Access Controls (_RBAC_) are a way to implement Least Privilege and Separation of Duties. Implementing Access Control Lists (_ACL_) is a way to implement Complete Mediation and Defense in Depth.
