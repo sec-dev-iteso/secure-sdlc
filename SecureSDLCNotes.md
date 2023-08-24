@@ -64,30 +64,23 @@ Security architects have guidelines (frameworks) to work with. A security archit
 * Software and data integrity protection, a taxonomy of software integrity protection techniques
 With a service such as ours here at dig8ital, we would bring deliverables from each of the frameworks together based on your needs to ensure you receive a fit-for-purpose outcome throughout all stages of security architecture.
 
-[Understand Key Security Architecture Principles][32]
-
-Two key publications that have shaped our thinking around security architecture are 1975’s “Protection of information in computer systems” and ISO/IEC Technical Standard 19249:2017. These publications establish important design principles including:
-* Economy of mechanism: Security controls should be kept as simple and small as possible to limit complexity and resulting design and implementation errors.
-* Fail-safe defaults: Access decisions should be based on permission rather than exclusion. The default situation should result in a lack of access, and access control rules should be written to add access rather than block it.
-* Complete mediation: All objects within a system should be subject to access control rules in all phases of system operation, including initialization, recovery, shutdown and maintenance.
-* Open design: The architecture must not depend on the design being secret in order to maintain security.
-* Least privilege/separation of privilege: Permissions should be appropriately organized to allow only what’s necessary for a given situation, and to ensure that potentially dangerous sets of permissions can be isolated.
-These design “guardrails” should be present in every technical control. Once these principles are well understood, you can approach the design in several steps.
-
 [KPMG Security Architecture Framework][33] is composed of five key areas including Governance & Compliance, Personnel & Identity, Information & Data, Applications & Operations, and Infrastructure. It could be further customized and enhanced to meet organizational needs, internal requirements and external regulations.
 
 
 ## Secure Design Principles
 Considering security can be too hard or to complex if are not well understood the principles behind what makes a system secure, it's easier to follow existing patterns and best practices that have been proven to work.
 
-Some of the most common principles are:
-* Least Privilege. Procure only the minimum required access to perform a task.
+[Some of the most common principles are][32]:
+* Least Privilege. Permissions should be appropriately organized to allow only what’s necessary for a given situation, and to ensure that potentially dangerous sets of permissions can be isolated.
 * Defense in Depth. Multiple layers of security controls deter attackers and reduce blast radius.
 * Fail Securely. If a component fails, it should fail in a secure state.
 * Separation of Duties. No single principal (user or external system) should be able to perform all task for critical operations.
 * Complete Mediation. Access to a resource should be validated against it's permissions.
 * Open Design. The design should not be secret, it should be open to the public (Analog to Kerckhoffs's principle).
 * Psychological Acceptability. A security control should be easy, or otherwise users will find a way to bypass it.
+* Economy of mechanism. Security controls should be kept as simple and small as possible to limit complexity and resulting design and implementation errors.
+* Fail-safe defaults. Access decisions should be based on permission rather than exclusion. The default situation should result in a lack of access, and access control rules should be written to add access rather than block it.
+* Complete mediation: All objects within a system should be subject to access control rules in all phases of system operation, including initialization, recovery, shutdown and maintenance.
 
 Many of above principles can be completed using common patterns. For example, Role Based Access Controls (_RBAC_) are a way to implement Least Privilege and Separation of Duties. Implementing Access Control Lists (_ACL_) is a way to implement Complete Mediation and Defense in Depth.
 
