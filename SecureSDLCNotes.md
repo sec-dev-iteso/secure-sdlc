@@ -42,13 +42,13 @@ Building a system with security from the start is key to reduce the cost of fixi
 ## Secure Design Principles
 Considering security can be too hard or to complex if are not well understood the principles behind what makes a system secure, it's easier to follow existing patterns and best practices that have been proven to work.
 
-Some of the most common [principles][5] are:
+Some of the most common principles are:
 * Least Privilege. Procure only the minimum required access to perform a task.
 * Defense in Depth. Multiple layers of security controls deter attackers and reduce blast radius.
 * Fail Securely. If a component fails, it should fail in a secure state.
 * [Separation of Duties.][4] No single principal (user or external system) should be able to perform all task for critical operations.
 * Complete Mediation. Access to a resource should be validated against it's permissions.
-* Open Design. The design should not be secret, it should be open to the public (Analog to Kerckhoffs's principle).
+* [Open Design.][5] The design should not be secret, it should be open to the public (Analog to Kerckhoffs's principle).
 * Psychological Acceptability. A security control should be easy, or otherwise users will find a way to bypass it.
 
 Many of above principles can be completed using common patterns. For example, Role Based Access Controls (_RBAC_) are a way to implement Least Privilege and Separation of Duties. Implementing Access Control Lists (_ACL_) is a way to implement Complete Mediation and Defense in Depth.
@@ -118,7 +118,7 @@ A secure code is as strong as the environment where it runs. Good system (as in 
 * Disable unnecessary resources (services, ports, etc.)
 * Apply least privilege to users and services
 * Use secure configuration by default
-* Communicate securely (TLS, SSH, etc.)
+* Communicate securely ([TLS][201], [SSH][200], etc.)
 * Network segmentation
 
 ## Secure Deployment Processes
@@ -162,14 +162,22 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [NIST SP 800-30][15]
 
-[Separation of duties. Wikipedia][4]
+[Segregation/separation of duties definition. ISACA][4]
 
 [Secure Product Design. OWASP][5]
+
+[What is SSH?. TechTarget][200]
+
+[What is TLS (Transport Layer Security)?. Cloudflare][201]
+
 
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
 [14]:https://owasp.org/www-community/OWASP_Risk_Rating_Methodology (OWASP Risk Rating Methodology, OWASP)
 [15]:https://csrc.nist.gov/pubs/sp/800/30/r1/final (NIST SP 800-30 Rev. 1, NIST)
-[4]: https://en.wikipedia.org/wiki/Separation_of_duties (Wikipedia)
+[4]: https://www.isaca.org/resources/glossary#glosss (ISACA)
 [5]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html (Secure Product Design. OWASP)
+[200]:https://www.techtarget.com/searchsecurity/definition/Secure-Shell#:~:text=SSH%2C%20also%20known%20as%20Secure,that%20implement%20the%20SSH%20protocol.
+[201]:https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/
+
 
