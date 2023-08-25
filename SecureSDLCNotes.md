@@ -118,7 +118,7 @@ A secure code is as strong as the environment where it runs. Good system (as in 
 * Disable unnecessary resources (services, ports, etc.)
 * Apply least privilege to users and services
 * Use secure configuration by default
-* Communicate securely (TLS, SSH, etc.)
+* Communicate securely ([TLS][201], [SSH][200], etc.)
 * Network segmentation
 
 ## Secure Deployment Processes
@@ -172,6 +172,11 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [Static Application Security Testing. Semgrep][55]
 
+[What is SSH?. TechTarget][200]
+
+[What is TLS (Transport Layer Security)?. Cloudflare][201]
+
+
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
 [14]:https://owasp.org/www-community/OWASP_Risk_Rating_Methodology (OWASP Risk Rating Methodology, OWASP)
@@ -181,3 +186,5 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 [53]: https://www.sonatype.com (Static Application Security Testing. Sonatype)
 [54]: https://checkmarx.com (Static Application Security Testing. CheckMarx)
 [55]: https://semgrep.dev (Static Application Security Testing. Semgrep)
+[200]:https://www.techtarget.com/searchsecurity/definition/Secure-Shell#:~:text=SSH%2C%20also%20known%20as%20Secure,that%20implement%20the%20SSH%20protocol.
+[201]:https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/
