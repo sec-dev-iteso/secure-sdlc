@@ -9,4 +9,4 @@ if (user.is_admin) {
     deny_access();
 }
 ```
-How could above code be improved to be follow the principle of complete mediation?
+How could above code be improved to follow the principle of complete mediation?
