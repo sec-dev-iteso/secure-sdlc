@@ -8,6 +8,17 @@
       VPNProxy-->DatabaseBackup;
 ```
 How can be improved the security of the network architecture considering a defense in depth approach?
+```mermaid
+  graph TD;
+      DeveloperLaptop-->Firewall;
+      Firewall-->IntrusionProtectionSystem;
+      IntrusionProtectionSystem-->VPNProxy;
+      VPNProxy-->CronJobServer;
+      CronJobServer-->Database;
+      Database-->DatabaseBackup;
+      VPNProxy-->DatabaseBackup;
+```
+
 
 # 2 Containers
 Containers run on top of a host OS, use root as default user inside the container and are isolated from the host filesystem by default. How to secure containerized applications if they need to read and write files from the host?
@@ -27,3 +38,6 @@ stateDiagram-v2
     Internet --> [*]
 ```
 How could be secured the containerized application considering a defense in depth approach?
+
+* Restrict IPs to which the container has access
+* Hardening the host OS

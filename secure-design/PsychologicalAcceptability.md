@@ -44,5 +44,31 @@ mobile:
 ```
 How could be improved the security of the two factor authentication considering the psychological acceptability principle?
 
+* Real world example:
+```
+when log in to Jira:
+    while yubikey attempt < 3 {
+        request 2fa yubikey
+        wait for yubikey
+        if (yubikey connected) {
+            request yubikey PIN
+            if (yubikey PIN valid) {
+                allow access
+            } else {
+                deny access
+                attempt++
+            }
+        }
+    }
+    request 2fa Microsoft Authenticator
+    wait for Microsoft Authenticator
+    if (Microsoft Authenticator valid) {
+        allow access
+    } else {
+        deny access
+    }
+    
+```
+
 # 2 Email security could largely be improved by each user sign and encrypts emails with PGP
 Why hasn't PGP been adopted by the majority of users?
