@@ -2,7 +2,7 @@
 ```mermaid
 classDiagram
     class AccountHolder{
-     s   -id
+        -id
         -accounts: Account[]
         +createAccount(account_number, balance)
         +deleteAccount(account_number)
