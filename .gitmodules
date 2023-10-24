@@ -1,0 +1,3 @@
+[submodule "secure-coding/php/startrek_payroll"]
+	path = secure-coding/php/startrek_payroll
+	url = git@github.com:thomaslaurenson/startrek_payroll.git
