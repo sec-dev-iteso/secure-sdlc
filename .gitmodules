@@ -1,3 +1,6 @@
 [submodule "secure-coding/php/startrek_payroll"]
 	path = secure-coding/php/startrek_payroll
 	url = git@github.com:thomaslaurenson/startrek_payroll.git
+[submodule "secure-coding/python/authorization/flask-restful-login"]
+	path = secure-coding/python/authorization/flask-restful-login
+	url = https://github.com/melihcolpan/flask-restful-login.git
