@@ -158,6 +158,16 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [Static Application Security Testing. Snyk][2]
 
+
+[What Is Patch Management][6662]
+
+
+
+[6662]:https://www.intel.com/content/www/us/en/business/enterprise-computers/resources/patch-management.html 
+
+[2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
+[1]:https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
+=======
 [OWASP Risk Rating Methodology][14]
 
 [NIST SP 800-30][15]
