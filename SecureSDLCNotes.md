@@ -157,10 +157,13 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 [Threat Modelling Tool Threats. Microsoft][1]
 
 [Static Application Security Testing. Snyk][2]
+[OWASP Community Pages][16]
 
-[OWASP Risk Rating Methodology][14]
+[Coding Standards depending of programm language][17]
 
-[NIST SP 800-30][15]
+[SDL practices][18]
+
+
 
 [What is SSH?. TechTarget][200]
 
