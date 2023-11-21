@@ -106,9 +106,11 @@ Just like SAST, DAST can produce a large amount of false positives or false nega
 Whenever a security bug is found, a unit or integration test should be created to ensure that the bug is fixed and won't be reintroduced in the future. This is known as security regression testing. It is usually performed by software developers with a strong security background or security engineers.
 
 ## Penetration Testing
-Penetration testing is a manual (or semi-automated) process where a security expert tries to find vulnerabilities in the system. It can be performed by an internal team or by an external vendor. In some cases, it's a compliance requirement to perform a penetration test before an organization can be certified by the regulatory body.
+[Penetration testing][8] is a manual (or semi-automated) process where a security expert tries to find vulnerabilities in the system. It can be performed by an internal team or by an external vendor. In some cases, it's a compliance requirement to perform a penetration test before an organization can be certified by the regulatory body.
 
 One of the big drawbacks of penetration testing is that it's a point in time test, and it's not possible to test all the possible scenarios. It's also a very expensive process, as it requires a high level of expertise and time to perform.
+
+Penetration testing (pentesting) involves a systematic approach to assess the security of systems, networks, or applications. It encompasses defining the testing scope, gathering information through reconnaissance, identifying vulnerabilities, exploiting them to demonstrate potential risks, exploring compromised environments, generating comprehensive reports, and guiding remediation efforts. Continuous improvement is crucial, with periodic testing ensuring ongoing security. Ethical and legal considerations are vital, as pentesters must operate within established boundaries and obtain proper permissions. Through these [core concepts][9], organizations proactively safeguard against potential threats by identifying and addressing vulnerabilities before malicious actors can exploit them.
 
 # Deployment
 When a system reaches a testing or production environment it's said to be deployed. During this phase, the system is exposed a the real world scenario, and there is no comeback in case a security issue was left behind. Additionally, for agile software development and to follow DevOps practices, it's important to consider the security of the deployment process itself.
@@ -158,6 +160,12 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [Static Application Security Testing. Snyk][2]
 
+[Penetration Testing][8]
+
+[Core concepts of penetration testing][9]
+
+[What is penetration testing][10]
+
 [OWASP Risk Rating Methodology][14]
 
 [NIST SP 800-30][15]
@@ -168,6 +176,9 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
+[8]: https://www.synopsys.com/glossary/what-is-penetration-testing.html 'What is penetration testing?'
+[9]: https://www.evolution-sec.com/en/products/penetration-testing-concept#:~:text=The%20process%20involves%20an%20active,in%20process%20or%20technical%20countermeasures. 'Core concepts of penetration testing'
+[10]: https://www.cloudflare.com/learning/security/glossary/what-is-penetration-testing/ 'What is penetration testing'
 [14]:https://owasp.org/www-community/OWASP_Risk_Rating_Methodology (OWASP Risk Rating Methodology, OWASP)
 [15]:https://csrc.nist.gov/pubs/sp/800/30/r1/final (NIST SP 800-30 Rev. 1, NIST)
 [200]:https://www.techtarget.com/searchsecurity/definition/Secure-Shell#:~:text=SSH%2C%20also%20known%20as%20Secure,that%20implement%20the%20SSH%20protocol.
