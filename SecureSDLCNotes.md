@@ -39,17 +39,48 @@ During this phase, the what and the how of the system is defined at a high level
 ## Security Architecture and Design ​
 Building a system with security from the start is key to reduce the cost of fixing security issues later in the SDLC. The objective is to cover protective measures before the first line of code is written, or the first server is spin up. Security controls aren't just technical, can also be operational and administrative like definining security roles and responsibilities in a human centric process.
 
+Security architects have guidelines (frameworks) to work with. A security architecture framework is a set of consistent guidelines and principles for implementing different levels of business’ security architecture. Companies may opt to devise their frameworks by combining international standard frameworks, such as:
+
+[TOGAF Framework][31]: TOGAF, or The Open Group Architecture Framework, helps determine which problems need to be solved within the security infrastructure in a business. Its primary focus is on the organization’s goal and scope, as well as the preliminary phases of security architecture. TOGAF does not, however, give specific guidance on ways to address security issues. 
+
+[SABSA Framework][31]: SABSA, or the Sherwood Applied Business Security Architecture, is a policy-driven framework. It helps define the critical questions that security architecture can only answer: what, why, when, and who. The goal of SABSA is to ensure that after the design of security services, they are then delivered and supported as an integral part of the enterprise’s IT management. One downside, however, is that SABSA doesn’t get into specifics regarding technical implementation. 
+
+[OSA Framework][31]: On the other hand, the Open Security Architecture (OSA) is a framework related to technical and functional security controls. OSA offers a comprehensive overview of crucial security components, principles, issues, and concepts that underlie architectural decisions involved in designing effective security architectures. However, OSA can only be used if the security architecture has already been designed.
+
+[TOGAF examples][30]:
+* Definition of business principles, goals and drivers.
+* Security architecture roadmaps - or in other words, a list of individual work packages that will define the target security architecture and show progression from the as-is state to the desired state within agreed timelines.
+* Security architecture building blocks. A building block is a package of functionality designed to meet the business needs across an organization.
+* Specification of security architecture requirements. This provides a quantitative view of the solution, stating measurable criteria that must be met during implementation.
+
+[SABSA examples][30]:
+* The business attribute model - the heart of SABSA. The business attribute model is an abstraction of real-life business requirements, detailing definitions and guidelines for a variety of important business attributes.
+* A defined security strategy, mapped to control objectives and business attribute profile.
+* Security policy architecture, which covers security and domain policies that an organization should follow, complied to the latest security standards and regulatory bodies.
+* Defined security services. These should be based on security policies, business strategies and control objectives.
+
+[OSA examples][30]:
+* Functionality and technical security controls. These provide a definition of technical security controls such as access controls, system hardening, security scans, etc.
+* Software and data integrity protection, a taxonomy of software integrity protection techniques
+With a service such as ours here at dig8ital, we would bring deliverables from each of the frameworks together based on your needs to ensure you receive a fit-for-purpose outcome throughout all stages of security architecture.
+
+[KPMG Security Architecture Framework][33] is composed of five key areas including Governance & Compliance, Personnel & Identity, Information & Data, Applications & Operations, and Infrastructure. It could be further customized and enhanced to meet organizational needs, internal requirements and external regulations.
+
+
 ## Secure Design Principles
 Considering security can be too hard or to complex if are not well understood the principles behind what makes a system secure, it's easier to follow existing patterns and best practices that have been proven to work.
 
-Some of the most common principles are:
-* Least Privilege. Procure only the minimum required access to perform a task.
+[Some of the most common principles are][32]:
+* Least Privilege. Permissions should be appropriately organized to allow only what’s necessary for a given situation, and to ensure that potentially dangerous sets of permissions can be isolated.
 * Defense in Depth. Multiple layers of security controls deter attackers and reduce blast radius.
 * Fail Securely. If a component fails, it should fail in a secure state.
 * Separation of Duties. No single principal (user or external system) should be able to perform all task for critical operations.
 * Complete Mediation. Access to a resource should be validated against it's permissions.
 * Open Design. The design should not be secret, it should be open to the public (Analog to Kerckhoffs's principle).
 * Psychological Acceptability. A security control should be easy, or otherwise users will find a way to bypass it.
+* Economy of mechanism. Security controls should be kept as simple and small as possible to limit complexity and resulting design and implementation errors.
+* Fail-safe defaults. Access decisions should be based on permission rather than exclusion. The default situation should result in a lack of access, and access control rules should be written to add access rather than block it.
+* Complete mediation: All objects within a system should be subject to access control rules in all phases of system operation, including initialization, recovery, shutdown and maintenance.
 
 Many of above principles can be completed using common patterns. For example, Role Based Access Controls (_RBAC_) are a way to implement Least Privilege and Separation of Duties. Implementing Access Control Lists (_ACL_) is a way to implement Complete Mediation and Defense in Depth.
 
@@ -158,6 +189,14 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [Static Application Security Testing. Snyk][2]
 
+[What is Security Architecture, and What Do You Need to Know?][30]
+
+[Security Architecture: What it is, Benefits and Frameworks][31]
+
+[How to Design a Security Architecture][32]
+
+[Security Architecture Design & Implementation][33]
+
 [OWASP Risk Rating Methodology][14]
 
 [NIST SP 800-30][15]
@@ -168,6 +207,10 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
+[30]:https://www.dig8ital.com/post/what-is-security-architecture-and-what-do-you-need-to-know
+[31]:https://www.threatintelligence.com/blog/security-architecture
+[32]:https://edtechmagazine.com/higher/article/2022/03/how-design-security-architecture-eperfcon
+[33]:https://assets.kpmg.com/content/dam/kpmg/cn/pdf/en/2020/10/sales-brochure-security-arch.pdf
 [14]:https://owasp.org/www-community/OWASP_Risk_Rating_Methodology (OWASP Risk Rating Methodology, OWASP)
 [15]:https://csrc.nist.gov/pubs/sp/800/30/r1/final (NIST SP 800-30 Rev. 1, NIST)
 [200]:https://www.techtarget.com/searchsecurity/definition/Secure-Shell#:~:text=SSH%2C%20also%20known%20as%20Secure,that%20implement%20the%20SSH%20protocol.
