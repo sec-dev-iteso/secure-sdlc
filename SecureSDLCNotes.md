@@ -76,21 +76,21 @@ In order to better address security at the code level, it's recommended to follo
 Security code reviews are a manual or semi-manual process that leverages finding vulnerabilities in the code. It can be done by a security expert, or by a developer with security knowledge. To be more objective about the findings, it's recommended to use a checklist and/or a tool to automate the process. For example, when performing a PR review, the reviewer can use a checklist to ensure that the code is following one of the above secure coding standards.
 
 ## Static Application Security Testing (SAST)
-Code is after all text, and text can be tested using syntactic and semantic analysis. SAST tools analyze the code looking for know patterns or predicting behaviour that could lead to security errors. Usually, they are part of a manual code review or a CI/CD pipeline. Other type of analysis is Software Composition Analysis (SCA), which looks for known vulnerabilities in the dependencies of the application.
+Code is after all text, and text can be tested using syntactic and semantic analysis. SAST tools analyze the code looking for know patterns or predicting behaviour that could lead to security errors. Usually, they are part of a manual code review or a CI/CD pipeline. Other type of analysis is [Software Composition Analysis (SCA)][51], which looks for known vulnerabilities in the dependencies of the application.
 
 It's important to note that SAST tools are not perfect, and can produce large numbers of [false positives or false negatives][2]. False positives are when the tool reports a vulnerability that is not present or is not applicable due to the code context. False negatives are more dangerous, as they represent a real finding that is not reported.
 
 A few of the most common SAST vendors are:
-* SonarQube by SonarSource
+* [SonarQube by SonarSource][52]
 * Fortify by OpenText
-* Sonatype
+* [Sonatype][53]
 * HCL AppScan
-* Checkmarx
+* [Checkmarx][54]
 * Veracode
 * Snyk
 Each one with strenghts depending on language, frameworks and application domain.
 
-Multiple open source tools are also available that can be integrated into a CI/CD pipeline or executed on demand. Among top rated tools are Semgrep, Bearer, CodeQL, Bearer which cover multiple languages.
+Multiple open source tools are also available that can be integrated into a CI/CD pipeline or executed on demand. Among top rated tools are [Semgrep][55], Bearer, CodeQL, Bearer which cover multiple languages.
 
 # Tests
 Quality assurance is like diagnosis the health of a system. If there exists errors that can lead to actual explotation of vulnerabilities, should be fixed before the system can be compromised.
@@ -162,14 +162,29 @@ Monitoring is key to detect incidents and respond to them in a timely manner. It
 
 [NIST SP 800-30][15]
 
+[Static Application Security Testing. Synopsys][51]
+
+[Static Application Security Testing. Sonarsource][52]
+
+[Static Application Security Testing. Sonatype][53]
+
+[Static Application Security Testing. CheckMarx][54]
+
+[Static Application Security Testing. Semgrep][55]
+
 [What is SSH?. TechTarget][200]
 
 [What is TLS (Transport Layer Security)?. Cloudflare][201]
+
 
 [2]:https://snyk.io/learn/application-security/static-application-security-testing/ (Static Application Security Testing. Snyk)
 [1]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model (Threat Modelling Tool Threats, Microsoft)
 [14]:https://owasp.org/www-community/OWASP_Risk_Rating_Methodology (OWASP Risk Rating Methodology, OWASP)
 [15]:https://csrc.nist.gov/pubs/sp/800/30/r1/final (NIST SP 800-30 Rev. 1, NIST)
+[51]: https://www.synopsys.com/glossary/what-is-software-composition-analysis.html (Static Application Security Testing. Synopsys)
+[52]: https://www.sonarsource.com/products/sonarqube/?gads_campaign=SQ-Mroi-PMax&gads_ad_group=Global&gads_keyword=&gclid=Cj0KCQjwuZGnBhD1ARIsACxbAVggT0whvYrmX-4zjFiVapsyaHo8zcw3Y_nuDx1zRhAXCdmNhpCnjL0aAnyFEALw_wcB (Static Application Security Testing. Sonarsource)
+[53]: https://www.sonatype.com (Static Application Security Testing. Sonatype)
+[54]: https://checkmarx.com (Static Application Security Testing. CheckMarx)
+[55]: https://semgrep.dev (Static Application Security Testing. Semgrep)
 [200]:https://www.techtarget.com/searchsecurity/definition/Secure-Shell#:~:text=SSH%2C%20also%20known%20as%20Secure,that%20implement%20the%20SSH%20protocol.
 [201]:https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/
-
